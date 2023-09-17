@@ -1,0 +1,181 @@
+body{
+    background: #caa88d;
+    font-family: "Nunito", sans-serif;
+}
+.blurb h2 {
+    color: #b4367b; 
+    font-weight: 100;
+    font-size:2.5rem;
+}
+
+.blurb p{
+    color:#835630;
+    font-weight: 125;
+    font-size: 1.25rem;
+    line-height: 2.0;
+}
+
+
+.content{
+    margin-top: 100;
+    margin-bottom: 100;
+}
+
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link{
+    color: white;
+}
+
+#mainNavbar .nav-link:hover{  
+    color: #b4367b;
+}
+
+#mainNavbar .navbar-brand{
+    color: #b4367b;
+    font-size: 1.7rem;
+    font-weight: 150;  
+}
+
+#headingGroup span{
+    color: #b4367b;
+}
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+.display-2{
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    color: #80305c; /* Salmon pink color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+    letter-spacing: 2px;
+   
+    padding: 20px; /* Add some padding for better spacing */
+    text-align: center;
+    line-height: 1.4;
+}
+.navbar.scrolled{
+    background: #674930;
+    transition: background 500ms;
+}
+
+
+@media (max-width: 1200px){
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+
+/* Footer Styles */
+footer {
+    background-color:#674930;
+    color: #f1ecec;
+    padding: 20px 0;
+   
+}
+
+/* Center the content within the footer */
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 150;  
+   
+}
+
+/* Style the sections within the footer */
+.business-hours,
+.address,
+.contact-info {
+    flex-basis: calc(33.33% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    align-content: center;
+    
+}
+
+.info h2,.info p{
+    text-align: center;
+    color:#baa4b1;
+    font-family:fantasy;
+}
+
+
+
+.thanks{
+    background-color: #b18b6c; /* Background color */
+    padding: 20px; /* Padding around the content */
+    text-align: center; /* Center-align the text */
+    font-size: 18px; /* Font size */
+    color: #540505; /* Text color */
+    font-family: 'Lobster',cursive;
+    font-size: 1.5rem;
+    /* Center align horizontally and vertically using Flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanks p {
+    margin: 0; /* Remove default margin */
+}
+
+
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-wrap: wrap;
+        text-align: center;
+
+    }
+    
+    .business-hours,
+    .address,
+    .contact-info {
+        flex-basis: 100%;
+        margin-right: 0;
+        text-align: center;
+    }
+}
+
+/* Style headings */
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Style the list within business hours */
+.business-hours ul {
+    list-style-type: none;
+}
+
+.business-hours li {
+    margin-bottom: 5px;
+}
+
+/* Style the address and contact info */
+.address, .contact-info {
+    line-height: 1.4;
+}
+
+/* Style links */
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hover effect on links */
+a:hover {
+    text-decoration: underline;
+}
+
